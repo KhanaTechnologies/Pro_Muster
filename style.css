@@ -1,0 +1,196 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+
+:root {
+
+    --primary: #0170a8;
+    --primary-dark: #2045d6;
+    --black: #010101;
+    --gray-1: #788190;
+    --gray-2: #d3d4db;
+    --white: #FFFFFF;
+    --body: #fefefe;
+}
+
+.hero{
+  background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url('./header\ 1.jpg'), no-repeat;
+  background-size: cover;
+background-position: center, center;
+height: 70vh;
+
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: var(--body);
+}
+
+.btn{
+  border-radius: 8px;
+}
+
+.btn-outline-secondary{
+  padding:12px 20px;
+}
+.btn-outline-secondary{
+  padding:12px 20px;
+}
+
+.btn-primary{
+  border: 1px solid var(--gray-2);
+  background-color: var(--primary);
+  padding:12px 20px;
+}
+
+.btn-primary:hover { 
+  background-color: var(--primary-dark);
+}
+
+.btn-outline-secondary {
+  border: 1px solid var(--gray-2);
+  color: var(--white);
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--gray-2);
+  border: 1px solid var(--gray-2);
+  color: var(--black);
+}
+
+.btn-outline-secondary:focus {
+  background-color: var(--gray-2);
+  border: 1px solid var(--gray-2);
+  color: var(--black);
+}
+
+/* Navbar */
+
+.navbar .btn-outline-secondary {
+  border: 1px solid var(--gray-2);
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 10px 16px;
+}
+
+.navbar{
+  padding:32px 0;
+}
+
+.nav-link{
+  margin-left: 41px;
+  font-size: 16px;
+  color: var(--gray-1);
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: var(--black);
+}
+
+
+/* Hero section */
+
+
+section.hero {
+  padding: 108px 0;
+}
+
+section.hero .text{
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 43px;
+  color: var(--white);
+}
+
+section.hero p{
+  font-weight: 400;
+  font-size: 28px;
+}
+
+
+.buttons {
+  padding-top: 10px;
+}
+
+.buttons .btn{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+section.setup {
+  padding:150px 0
+}
+
+section.setup .text-header h3 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 48px;
+  color: var(--black);
+}
+
+section.setup .text-header p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--black);
+  padding: 27px 0;
+}
+
+section.setup .icons{
+  padding:27px 0;
+}
+
+section.setup h5{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--black);
+  padding-bottom: 18px;
+}
+
+
+section.setup .desc p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: var(--gray-1);
+  max-width: 284px;
+  margin: 0 auto;
+}
+
+
+
+section.breaker {
+  background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url('./header\ 2.jpg'), no-repeat;
+  background:url('./header\ 2.jpg'), no-repeat;
+
+  background-size: cover;
+
+height: 70vh;
+}
+
+
+/* whats app floating button */
+.float{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:30px;
+	right:10px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	/* box-shadow: 2px 2px 3px #999; */
+  z-index:100;
+}
+
+.my-float{
+  padding-top: 2px;
+	margin-top:16px;
+}
